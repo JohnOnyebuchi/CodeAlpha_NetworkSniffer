@@ -26,3 +26,5 @@ This project helped me understand how data flows across networks and how packet 
 
 ## Disclaimer
 This tool is for educational purposes only and should be used on authorized networks.
+## Author
+Sunday John Onyebuchi– Cybersecurity Intern at CodeAlpha
