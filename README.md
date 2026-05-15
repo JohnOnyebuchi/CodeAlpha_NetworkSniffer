@@ -1,30 +1,68 @@
-Network Sniffer
+# 🛡️ Basic Network Sniffer
 
+## 📌 Overview
 This project is a basic network sniffer developed using Python and Scapy as part of my Cybersecurity Internship at CodeAlpha.
 
-## Overview
-The tool captures live network packets and displays important information such as:
-- Source IP address
-- Destination IP address
-- Protocol used
-- Packet payload
+The tool captures live network traffic and analyzes packets in real time by extracting:
 
-## Tools Used
+- Source IP Address
+- Destination IP Address
+- Protocol Type
+- Packet Payload Data
+
+---
+
+## 🚀 Features
+- Live packet capturing
+- TCP/UDP protocol identification
+- Source and destination IP extraction
+- Basic payload analysis
+- Real-time traffic monitoring
+
+---
+
+## 🛠️ Technologies Used
 - Python
 - Scapy
+- Npcap
+- Command Prompt
 
-## How to Run
-1. Install dependencies:
-   pip install scapy
+---
 
-2. Run the script (as administrator/root):
-   python sniffer.py
+## ▶️ How to Run
 
+### 1. Install Scapy
+```bash
+pip install scapy
+```
 
-## Learning Outcome
-This project helped me understand how data flows across networks and how packet analysis works.
+### 2. Run the Program
+```bash
+python sniffer.py
+```
 
-## Disclaimer
-This tool is for educational purposes only and should be used on authorized networks.
-## Author
-Sunday John Onyebuchi– Cybersecurity Intern at CodeAlpha
+---
+
+## 📷 Sample Output
+
+```text
+📦 PACKET CAPTURED
+Source IP      : 192.168.x.x
+Destination IP : 142.x.x.x
+Protocol       : TCP
+```
+
+---
+
+## 🎯 Learning Outcomes
+This project helped me understand:
+- Network packet structure
+- Packet analysis
+- Network traffic flow
+- Basic cybersecurity monitoring concepts
+
+---
+
+## 👨‍💻 Author
+Sunday John Onyebuchi
+Cybersecurity Intern @ CodeAlpha
